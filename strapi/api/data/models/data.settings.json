@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "data",
+  "info": {
+    "name": "data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hash": {
+      "type": "json",
+      "required": true
+    },
+    "prevHash": {
+      "type": "json"
+    }
+  }
+}

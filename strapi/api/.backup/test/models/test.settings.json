@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "tests",
+  "info": {
+    "name": "hashes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "block": {
+      "type": "json",
+      "required": true,
+      "unique": true
+    }
+  }
+}
